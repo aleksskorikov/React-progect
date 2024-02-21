@@ -1,0 +1,58 @@
+.header {
+    background-color: $header-bg;
+}
+.conteiner {
+    max-width: 107rem;
+    padding: 0 1rem;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.header-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5rem 0;
+}
+.header__logo-discription{
+    @extend %text-block1;
+    margin-top: 0.3rem;
+}
+.header__nav-lists {
+    display: flex;
+    gap: 4.6rem;
+}
+.header__nav-linck {
+    @extend %text-block-linc;
+    &:hover{
+        color: $color-1-hover;
+    }
+}
+.header__block-contacts{
+    display: flex;
+    align-items: center;
+}
+.block__contacts-time, .block__contacts-tel{
+    @extend %text-block-linc;
+    font-family: $font-famali-1;
+    font-size: 1rem;
+    margin-left: 0.4rem;
+}
+.block__contacts-tel{
+    margin: 0 3.7rem 0 3.7rem;
+}
+.header-btn{
+    width: 13rem;
+    height: 2.5rem;
+    @extend %header-btn;
+    top: 0;
+    position: relative;
+    &:hover {
+        color: $color-1-hover;
+    }
+    &:active {
+        top: 1px;
+    }
+}
+.header-burgermenu{
+    display: none;
+}
