@@ -21,7 +21,7 @@
     display: flex;
     gap: 4.6rem;
 }
-.header__nav-linck {
+.header__nav-linck, .burgermenu-linck {
     @extend %text-block-linc;
     &:hover{
         color: $color-1-hover;
@@ -54,5 +54,25 @@
     }
 }
 .header-burgermenu{
+    cursor: pointer;
     display: none;
+}
+
+.burgermenu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: $header-bg;
+    z-index: 2;
+    border: 1px solid black;
+}
+.burgermenu-lists{
+    margin: 2rem 3rem;
+}
+.burgermenu-list{
+    margin-bottom: 1.5rem;
+}
+.burgermenu-cloze{
+    margin: 1rem 0 0 90%;
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import HeaderLogo from '../imeges/logo/header logo.svg';
+import BtnRequestCall from './Events/BtnRequestCall';
 
 
 const footer = () => {
@@ -24,7 +25,7 @@ const footer = () => {
                 </nav>
                 <div className="footer__block-contacts">
                     <p className="footer__contacts-tel">8 055 555 55 55</p>
-                    <button className="footer-btn">замовити дзвінок</button>
+                    <BtnRequestCall /> 
                 </div>
             </div>
         </div>
