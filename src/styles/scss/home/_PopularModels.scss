@@ -1,0 +1,48 @@
+@import "../changeable";
+@import "../templates";
+
+.section-popularModels{
+    margin-top: -8rem;
+}
+.title{
+    @extend %section-one-title;
+    text-align: center;
+}
+.products__block{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 7.5rem;
+    margin-top: 8.4rem;
+}
+.products__block-btn{
+    width: 12.13rem;
+    height: 2.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    border: 1px solid black;
+    @extend %text-2;
+    margin: 7rem auto;
+}
+
+    .primary {
+        display: block;
+        width: 13rem;
+        height: 2.75rem;
+        border-radius: 0.63rem;
+        background: rgb(215, 166, 136);
+        @extend %text-1;
+        color: white;
+        position: relative;
+        top: 0;
+    
+        &:hover {
+            background: rgb(214, 158, 123);
+        }
+    
+        &:active {
+            top: 2px;
+        }
+}

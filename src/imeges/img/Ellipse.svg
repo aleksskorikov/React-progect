@@ -1,0 +1,20 @@
+<svg width="72.625427" height="72.904053" viewBox="0 0 72.6254 72.9041" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_94_1005_dd" x="0.000000" y="0.000000" width="72.625427" height="72.904053" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="4"/>
+			<feGaussianBlur stdDeviation="1.33333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.078 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+	</defs>
+	<g filter="url(#filter_94_1005_dd)">
+		<path id="Ellipse 3" d="M33.8596 0.0405273C16.4961 -0.988281 4.53897 17.8003 4.02249 34.8774C3.41589 54.9338 15.1096 66.8804 35.2906 64.6345C51.6126 60.1616 64.7724 49.3345 68.1847 31.4001C71.7374 7.93799 53.221 2.30957 33.8596 0.0405273Z" fill="#D5B19B" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

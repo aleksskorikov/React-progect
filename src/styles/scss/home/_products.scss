@@ -1,0 +1,70 @@
+@import "../changeable";
+@import "../templates";
+
+.product__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20rem;
+    height: 32rem;
+    &:hover{
+        box-shadow: 0rem 0.13rem 0.25rem 0.13rem rgba(0, 0, 0, 0.08);
+        background: rgb(255, 255, 255);
+    }
+    &:hover>.block-btn{
+        display: block;
+    }
+}
+.block-img{
+    margin-top: 3rem;
+}
+.block__discriptin{
+    @extend %text-1;
+    text-align: center;
+    margin: 1rem 0 1.5rem 0;
+}
+.block-price{
+    @extend %text-1;
+    font-size: 0.88rem;
+}
+.block-btn{
+    margin: 0.7rem 0 0.5rem 0;
+    display: none;
+}
+
+.block-imgdiscont{
+    margin-top: 1.6rem;
+}
+.block__price-discont{
+    display: flex;
+    gap: 6rem;
+    @extend %text-1;
+    font-size: 0.88rem;
+}
+.old-price{
+    text-decoration: line-through;
+}
+.block-discaunt{
+    margin-top: -29.5rem;
+    margin-left: 18.5rem;
+}
+.discaunt-elips{
+    position: relative;
+    z-index: 1;
+}
+.discaunt-sum{
+    position: relative;
+    z-index: 2;
+    top: -3.5rem;
+    left: 1.7rem;
+    color: $color-3;
+    font-family: $font-famali-1;
+    font-size: 1.13rem;
+    font-weight: 500;
+    line-height: 1.31rem;
+}
+
+.block__discaunt-btn{
+    margin-top: 23.5rem;
+    
+}

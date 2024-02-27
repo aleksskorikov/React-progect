@@ -10,7 +10,7 @@ const BtnRequestCall = ({ children, primary}) => {
     const [tel, setTel] = useState('');
     const [ValidInputName, setValidInputName] = useState(true);
     const [ValidInputTel, setValidInputTel] = useState(true);
-    const buttonClasses = primary ? `${'header-btn'} ${'primary'}` : 'header-btn';
+    const buttonClasses = primary ? `${'primary'}` : 'header-btn';
 
     const OpenRequestCall = () => {
         setRequestCallOpen(!RequestCallOpen);
