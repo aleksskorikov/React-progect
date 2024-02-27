@@ -40,7 +40,7 @@ const Navbar = () => {
                     <p className="block__contacts-time">Пн - Пт: 10:00-20:00</p>
                     <p className="block__contacts-tel">8 055 555 55 55</p>
                 </div>
-                <BtnRequestCall />
+                <BtnRequestCall children={"Замовити дзвінок"}/>
                 <img src={BurgerMenu} alt="logo" className='header-burgermenu' onClick={toggleBurgerMenu}/>
                 {burgerMenuOpen && (
                     <div className="burgermenu">

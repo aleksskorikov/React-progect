@@ -41,6 +41,49 @@
   line-height: 1.69rem;
 }
 
+.footer__logo-discription, .header__logo-discription {
+  color: rgb(48, 48, 48);
+  font-family: "Roboto", sans-serif;
+  font-size: 0.88rem;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+.footer__nav-linck, .block__contacts-time, .block__contacts-tel, .header__nav-linck, .burgermenu-linck {
+  color: rgb(48, 48, 48);
+  font-family: "Oswald", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1rem;
+}
+
+.footer-btn, .header-btn {
+  border-radius: 0.63rem;
+  background: rgb(213, 177, 155);
+  color: rgb(255, 255, 255);
+  font-family: "Oswald", sans-serif;
+  font-size: 1.13rem;
+  font-weight: 300;
+  line-height: 1.69rem;
+  text-transform: uppercase;
+}
+
+.requestcall__form-input::-moz-placeholder {
+  color: rgb(48, 48, 48);
+  font-family: "Oswald", sans-serif;
+  font-size: 1.13rem;
+  font-weight: 300;
+  line-height: 1.69rem;
+}
+
+.requestcall__form-input::placeholder {
+  color: rgb(48, 48, 48);
+  font-family: "Oswald", sans-serif;
+  font-size: 1.13rem;
+  font-weight: 300;
+  line-height: 1.69rem;
+}
+
 .header {
   background-color: rgb(250, 245, 242);
 }
@@ -127,6 +170,10 @@
   margin: 1rem 0 0 90%;
 }
 
+.primary {
+  color: #000;
+}
+
 .footer {
   background-color: rgb(250, 245, 242);
 }
@@ -194,12 +241,55 @@
   top: 1px;
 }
 
+.header__logo-discription, .footer__logo-discription {
+  color: rgb(48, 48, 48);
+  font-family: "Roboto", sans-serif;
+  font-size: 0.88rem;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+.header__nav-linck, .burgermenu-linck, .block__contacts-time, .block__contacts-tel, .footer__nav-linck {
+  color: rgb(48, 48, 48);
+  font-family: "Oswald", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1rem;
+}
+
+.header-btn, .footer-btn {
+  border-radius: 0.63rem;
+  background: rgb(213, 177, 155);
+  color: rgb(255, 255, 255);
+  font-family: "Oswald", sans-serif;
+  font-size: 1.13rem;
+  font-weight: 300;
+  line-height: 1.69rem;
+  text-transform: uppercase;
+}
+
+.requestcall__form-input::-moz-placeholder {
+  color: rgb(48, 48, 48);
+  font-family: "Oswald", sans-serif;
+  font-size: 1.13rem;
+  font-weight: 300;
+  line-height: 1.69rem;
+}
+
+.requestcall__form-input::placeholder {
+  color: rgb(48, 48, 48);
+  font-family: "Oswald", sans-serif;
+  font-size: 1.13rem;
+  font-weight: 300;
+  line-height: 1.69rem;
+}
+
 .requestcall__block {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   z-index: 3;
   background: linear-gradient(-46.21deg, rgb(213, 177, 155) 4.308%, rgb(213, 177, 155) 99.495%);
 }
@@ -289,6 +379,11 @@
   background-color: rgb(243, 202, 202);
 }
 
+@media (max-width: 1285px) {
+  .class-block {
+    top: -5rem;
+  }
+}
 body {
   position: relative;
   z-index: 1;

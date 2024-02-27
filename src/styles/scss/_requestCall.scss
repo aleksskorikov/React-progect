@@ -1,14 +1,19 @@
+@import "./_changeable.scss";
+@import "./_templates.scss";
+@import "./_mixins.scss";
 
 
 .requestcall__block{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     z-index: 3;
     background: linear-gradient(-46.21deg, rgba(213, 177, 155, 1) 4.308%, rgb(213, 177, 155) 99.495%);
 }
+
+
 .requestcall__block-cloze{
     margin: 2rem 0 0 90%;
 }
@@ -77,4 +82,11 @@
 .error{
     border: 1px solid red;
     background-color: rgb(243, 202, 202);
+}
+
+@media (max-width: 1285px) {
+
+    .class-block {
+        top: -5rem;
+    }
 }

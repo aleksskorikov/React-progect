@@ -25,7 +25,7 @@ const footer = () => {
                 </nav>
                 <div className="footer__block-contacts">
                     <p className="footer__contacts-tel">8 055 555 55 55</p>
-                    <BtnRequestCall /> 
+                    <BtnRequestCall children={"Замовити дзвінок"} /> 
                 </div>
             </div>
         </div>

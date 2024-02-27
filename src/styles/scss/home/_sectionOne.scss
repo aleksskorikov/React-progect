@@ -1,0 +1,532 @@
+@import "../changeable";
+@import "../templates";
+
+.section-one {
+    margin-top: 3.5rem;
+    margin-bottom: 11rem;
+}
+
+.section__block {
+    overflow: hidden;
+}
+
+.section__images {
+    max-height: 60rem;
+    overflow: hidden;
+}
+
+.section__images-bg {
+    display: flex;
+
+}
+
+.section__images-left {
+    position: relative;
+    left: -3.8rem;
+}
+
+.section__images-rite {
+    position: relative;
+    right: 25rem;
+}
+
+.section__imagesbg-tables {
+    position: relative;
+    right: 108rem;
+}
+
+.section__imagesbg-table {
+    position: relative;
+    width: 70rem;
+    height: 30rem;
+    top: -7rem;
+}
+
+.section__imagesbg-group {
+    position: relative;
+    width: 58.5rem;
+    height: 37rem;
+    top: 23.5rem;
+    left: 5rem;
+}
+
+.section__imagesbg-tupperware {
+    position: absolute;
+    top: 33.5rem;
+    left: 8rem;
+}
+
+.section__imagesbg-ananas {
+    position: absolute;
+    width: 10rem;
+    top: 28.5rem;
+    left: 29rem;
+}
+
+.section__imagesbg-note {
+    position: absolute;
+    width: 9.5rem;
+    top: 33.5rem;
+    left: 53rem;
+}
+
+.section__imagesbg-line1 {
+    position: absolute;
+    top: 27rem;
+    left: 13rem;
+}
+
+.section__imagesbg-line2 {
+    position: absolute;
+    top: 24rem;
+    left: 34rem;
+}
+
+.section__imagesbg-line3 {
+    position: absolute;
+    top: 26rem;
+    left: 52rem;
+}
+
+
+
+.section__imagesbg-text1 {
+    position: absolute;
+    @extend %text-2;
+    top: 25rem;
+    left: 18rem;
+}
+
+.section__imagesbg-text2 {
+    position: absolute;
+    @extend %text-2;
+    top: 22rem;
+    left: 33rem;
+}
+
+.section__imagesbg-text3 {
+    position: absolute;
+    @extend %text-2;
+    top: 24.5rem;
+    left: 50rem;
+}
+
+.section__data {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -50rem;
+    left: 7.9rem;
+
+}
+
+.section__data-title {
+    @extend %section-one-title;
+}
+
+.section__data-text {
+    @extend %section-one-text;
+    margin-top: 1rem;
+}
+
+.section__data-blocks {
+    display: flex;
+    margin-top: 3rem;
+    gap: 3.3rem;
+}
+
+.data__block-text {
+    @extend %text-3;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.section__data-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 5.5rem;
+}
+
+.data__block-img {
+    width: 2.5rem;
+    height: 4rem;
+}
+
+.table {
+    margin-top: -0.5rem;
+}
+
+.section__data-btn {
+    width: 14rem;
+    height: 3rem;
+    border-radius: 0.63rem;
+    background: linear-gradient(133.93deg, rgb(213, 177, 155) 10.051%, rgba(213, 177, 155, 0.71) 92.394%);
+    @extend %text-1;
+    color: $color-3;
+    margin-top: 3rem;
+    position: relative;
+    top: 0;
+
+    &:hover {
+        background: rgb(213, 177, 155);
+    }
+
+    &:active {
+        top: 2px;
+    }
+}
+
+@media (max-width: 1285px) {
+
+    // ===========section-one================
+    .section__images-left {
+        position: relative;
+        left: -20rem;
+    }
+
+    .section__images-rite {
+        position: relative;
+        right: 41.5rem;
+    }
+
+    .section__imagesbg-tables {
+        position: relative;
+        right: 124rem;
+    }
+    .section__data {
+        top: -55rem;
+    }
+    // ======================================
+}
+
+@media (max-width: 1024px) {
+
+    // ===========section-one================
+    .section__images-left {
+        left: -20rem;
+    }
+
+    .section__images-rite {
+        right: 41.5rem;
+    }
+
+    .section__imagesbg-tables {
+        right: 130rem;
+    }
+
+    .section__imagesbg-table {
+        width: 60rem;
+        height: 25rem;
+        top: -3rem;
+    }
+
+    .section__imagesbg-group {
+        width: 48.5rem;
+        top: 25.5rem;
+    }
+
+    .section__imagesbg-tupperware {
+        top: 36rem;
+        left: 6.5rem;
+    }
+
+    .section__imagesbg-ananas {
+        width: 10rem;
+        top: 31.5rem;
+        left: 25rem;
+    }
+
+    .section__imagesbg-note {
+        top: 36rem;
+        left: 45rem;
+    }
+
+    .section__imagesbg-line1 {
+        top: 29.5rem;
+        left: 11.5rem;
+    }
+
+    .section__imagesbg-line2 {
+        top: 29rem;
+        left: 29.5rem;
+    }
+
+    .section__imagesbg-line3 {
+        top: 28.5rem;
+        left: 46rem;
+    }
+
+    .section__imagesbg-text1 {
+        top: 27.5rem;
+        left: 16.5rem;
+    }
+
+    .section__imagesbg-text2 {
+        top: 27rem;
+        left: 29rem;
+    }
+
+    .section__imagesbg-text3 {
+        top: 27rem;
+        left: 44rem;
+    }
+    // ======================================
+}
+
+@media (max-width: 920px) {
+    .section__data {
+        align-items: center;
+        top: -55rem;
+        left: 0;
+    }
+    .section__images-left {
+        left: -35rem;
+    }
+
+    .section__images-rite {
+        right: 56rem;
+    }
+
+
+    .section__imagesbg-tables {
+        right: 139.5rem;
+    }
+}
+
+@media (max-width: 821px) {
+    .section__imagesbg-tables {
+        right: 135rem;
+    }
+
+    .section__imagesbg-table {
+        width: 40rem;
+    }
+
+    .section__imagesbg-group {
+        width: 36rem;
+        left: 2rem;
+    }
+
+    .section__imagesbg-tupperware {
+        width: 5rem;
+        top: 40rem;
+        left: 4rem;
+    }
+
+    .section__imagesbg-ananas {
+        width: 7rem;
+        top: 36rem;
+        left: 16rem;
+    }
+
+    .section__imagesbg-note {
+        width: 5rem;
+        top: 40rem;
+        left: 30rem;
+    }
+
+    .section__imagesbg-line1 {
+        top: 32.5rem;
+        left: 6.5rem;
+    }
+
+    .section__imagesbg-line2 {
+        top: 31.5rem;
+        left: 18rem;
+    }
+
+    .section__imagesbg-line3 {
+        top: 31.5rem;
+        left: 28.5rem;
+    }
+
+    .section__imagesbg-text1 {
+        top: 30.5rem;
+        left: 12rem;
+    }
+
+    .section__imagesbg-text2 {
+        top: 30rem;
+        left: 17rem;
+    }
+
+    .section__imagesbg-text3 {
+        top: 30.5rem;
+        left: 26.5rem;
+    }
+}
+
+@media (max-width: 541px) {
+    .section__images {
+        max-height: 45rem;
+    }
+    .section__data {
+        top: -40rem;
+    }
+    .section__data-text{
+        text-align: center;
+    }
+    .section__images-left {
+        left: -40rem;
+    }
+        
+    .section__images-rite {
+        right:61.5rem;
+    }
+        
+    .section__imagesbg-tables {
+        right: 137.5rem;
+        top: -10rem;
+    }
+
+    .section__imagesbg-table {
+        width: 30rem;
+    }
+        
+    .section__imagesbg-group {
+        width: 25rem;
+        left: 1rem;
+        top: 26rem;
+    }
+        
+    .section__imagesbg-tupperware {
+        width: 3rem;
+        top: 41.8rem;
+        left: 3rem;
+    }
+        
+    .section__imagesbg-ananas {
+        width: 5rem;
+        top: 38.5rem;
+        left: 12rem;
+    }
+        
+    .section__imagesbg-note {
+        width: 3rem;
+        top: 42rem;
+        left: 23rem;
+    }
+        
+    .section__imagesbg-line1 {
+        width: 4rem;
+        top: 38rem;
+        left: 5rem;
+    }
+        
+    .section__imagesbg-line2 {
+        width: 2rem;
+        top: 36.5rem;
+        left: 14rem;
+    }
+        
+    .section__imagesbg-line3 {
+        width: 2.2rem;
+        top: 38rem;
+        left: 23rem;
+    }
+        
+    .section__imagesbg-text1 {
+        top: 36rem;
+        left: 6.5rem;
+    }
+
+    .section__imagesbg-text2 {
+        top: 34.5rem;
+        left: 12.5rem;
+    }
+        
+    .section__imagesbg-text3 {
+        top: 36rem;
+        left: 20.5rem;
+    }
+}
+@media (max-width: 431px) {
+    .section__images{
+        max-height: 42rem;
+    }   
+    .section__images-left {
+        left: -50rem;
+    }
+        
+    .section__images-rite {
+        right: 71.5rem;
+    }
+        
+    .section__imagesbg-tables {
+        right: 139.5rem;
+        top: -15rem;
+    }
+
+    .section__imagesbg-table {
+        width: 22rem;
+    }
+        
+    .section__imagesbg-group {
+        width: 21rem;
+        left: 0;
+        top: 25.5rem;
+    }
+        
+    .section__imagesbg-tupperware {
+        top: 42.5rem;
+        left: 1.7rem;
+    }
+        
+    .section__imagesbg-ananas {
+        width: 4rem;
+        top: 40.5rem;
+        left: 9rem;
+    }
+
+    .section__imagesbg-note {
+        top: 43rem;
+        left: 16.5rem;
+    }
+        
+    .section__imagesbg-line1 {
+        top: 39rem;
+        left: 3.5rem;
+    }
+        
+    .section__imagesbg-line2 {
+        top: 38.5rem;
+        left: 10rem;
+    }
+
+    .section__imagesbg-line3 {
+        top: 39rem;
+        left: 16rem;
+    }
+        
+    .section__imagesbg-text1 {
+        top: 37rem;
+        left: 5rem;
+        font-size: 0.88rem;
+    }
+
+    .section__imagesbg-text2 {
+        top: 36.5rem;
+        left: 9rem;
+        font-size: 0.88rem;
+    }
+
+    .section__imagesbg-text3 {
+        top: 37.5rem;
+        left: 14rem;
+        font-size: 0.88rem;
+    }
+    .section__data-title {
+        font-size: 2rem
+    }
+
+    .section__data-text {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .section__data-blocks {
+        margin-top: 1rem;
+        gap:1rem;
+    }
+}

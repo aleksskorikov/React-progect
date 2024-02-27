@@ -10,7 +10,9 @@ const Navbar = () => {
             <Header />
         </div>
         <div className="main">
-            <SectionOne />   
+            <div className="section-one">
+                <SectionOne />
+            </div>
         </div>
         <div className="footer">
             <Footer />

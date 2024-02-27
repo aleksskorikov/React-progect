@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
-import ClozeBtn from '../../imeges/logo/cloze.svg'
+import ClozeBtn from '../../imeges/logo/cloze.svg';
+import '../../styles/scss/_header.scss';
+import '../../styles/scss/_requestCall.scss';
 
-
-const BtnRequestCall = () => {
+const BtnRequestCall = ({ children, primary}) => {
 
     const [RequestCallOpen, setRequestCallOpen] = useState(false);
     const [name, setName] = useState('');
     const [tel, setTel] = useState('');
     const [ValidInputName, setValidInputName] = useState(true);
     const [ValidInputTel, setValidInputTel] = useState(true);
+    const buttonClasses = primary ? `${'header-btn'} ${'primary'}` : 'header-btn';
 
     const OpenRequestCall = () => {
         setRequestCallOpen(!RequestCallOpen);
@@ -54,7 +56,7 @@ const BtnRequestCall = () => {
 
     return (
         <>
-            <button className="header-btn" onClick={OpenRequestCall}>замовити дзвінок</button>
+            <button className={ buttonClasses }  onClick={OpenRequestCall}>{children}</button>
             {RequestCallOpen && (
                 <div className="requestcall__block">
                     <img src={ClozeBtn} alt="cloze-btn" onClick={closeRequestCall} className='requestcall__block-cloze'/>

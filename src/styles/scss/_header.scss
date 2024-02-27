@@ -1,3 +1,6 @@
+
+@import "./_changeable.scss";
+@import "./_templates.scss";
 .header {
     background-color: $header-bg;
 }
@@ -75,4 +78,7 @@
 }
 .burgermenu-cloze{
     margin: 1rem 0 0 90%;
+}
+.primary{
+    color: #000;
 }
