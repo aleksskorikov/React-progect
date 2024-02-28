@@ -63,13 +63,25 @@
     font-weight: 500;
     line-height: 1.31rem;
 }
+.products-btn{
+    width: 13rem;
+    height: 2.5rem;
+    @extend %header-btn;
+    text-transform: uppercase;
+    top: 0;
+    position: relative;
 
+    &:hover {
+        color: $color-1-hover;
+    }
+
+    &:active {
+        top: 1px;
+    }
+}
 .block__discaunt-btn{
     margin-top: 23.5rem;
-    
 }
 @media (max-width: 910px) {
-    .header-btn {
-            display: none;
-        }
+    
 }

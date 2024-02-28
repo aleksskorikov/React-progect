@@ -67,7 +67,7 @@ const sectionOne = () => {
                             <p className="data__block-text">Безкоштовний виїзд майстра на виміри</p>
                         </div>
                     </div>
-                    <BtnRequestCall children={"Залишити заявку"}/>
+                    <BtnRequestCall children={"Залишити заявку"} style={'header-btn'}/>
                 </div>        
             </div>
         </div>

@@ -3,18 +3,13 @@ import ClozeBtn from '../../imeges/logo/cloze.svg';
 import '../../styles/scss/_header.scss';
 import '../../styles/scss/_requestCall.scss';
 
-const BtnRequestCall = ({ children, primary}) => {
+const BtnRequestCall = ({ children, style}) => {
 
     const [RequestCallOpen, setRequestCallOpen] = useState(false);
     const [name, setName] = useState('');
     const [tel, setTel] = useState('');
     const [ValidInputName, setValidInputName] = useState(true);
     const [ValidInputTel, setValidInputTel] = useState(true);
-    const buttonClasses = primary ? `${'primary'}` : 'header-btn';
-
-
-
-        
 
     const OpenRequestCall = () => {
         setRequestCallOpen(!RequestCallOpen);
@@ -60,7 +55,7 @@ const BtnRequestCall = ({ children, primary}) => {
 
     return (
         <>
-            <button className={ buttonClasses }  onClick={OpenRequestCall}>{children}</button>
+            <button className={ `buttonClasses  ${style}`}  onClick={OpenRequestCall}>{children}</button>
             {RequestCallOpen && (
                 <div className="requestcall__block">
                     <img src={ClozeBtn} alt="cloze-btn" onClick={closeRequestCall} className='requestcall__block-cloze'/>

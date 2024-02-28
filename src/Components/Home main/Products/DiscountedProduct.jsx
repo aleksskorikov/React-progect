@@ -23,7 +23,7 @@ const DiscountedProduct = () => {
                     <p className="discaunt-sum">30%</p>
                 </div>
                 <div className="block-btn block__discaunt-btn">
-                    <BtnRequestCall children={"Замовити"} />
+                    <BtnRequestCall children={"Замовити"} style={'products-btn'}/>
                 </div>
                 
             </div>

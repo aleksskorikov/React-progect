@@ -7,13 +7,11 @@ const MadeFurniture = () => {
     return (
         <>
             <div className="section__madefurniture-block">
-            {/* <div className="block__imege"> */}
                 <img src={Foto} alt="" className="block__imege-img" />
-            {/* </div> */}
             <div className="block__text">
                 <h2 className="block__text-title">Цікавить виготовлення меблів на замовлення?</h2>
                 <p className="block__text-text">Розрахуйте вартість прямо зараз!</p>
-                <BtnRequestCall children={"Рассчитать стоимость"} primary/>
+                <BtnRequestCall children={"Рассчитать стоимость"} style={'made-btn'}/>
             </div>
             </div>
 

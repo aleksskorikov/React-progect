@@ -14,7 +14,7 @@ const Product = () => {
                 </div>
                 <p className="block-price">5555 <span className='price-currency'>грн</span> </p>
                 <div className="block-btn">
-                    <BtnRequestCall children={"Замовити"} />
+                    <BtnRequestCall children={"Замовити"} style={'products-btn'}/>
                 </div>
                 
             </div>
