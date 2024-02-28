@@ -35,9 +35,11 @@
     align-items: center;
 }
 .block__contacts-time, .block__contacts-tel{
-    @extend %text-block-linc;
+    color: $color-1;
     font-family: $font-famali-1;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1rem;
     margin-left: 0.4rem;
 }
 .block__contacts-tel{
@@ -47,6 +49,7 @@
     width: 13rem;
     height: 2.5rem;
     @extend %header-btn;
+    text-transform: uppercase;
     top: 0;
     position: relative;
     &:hover {
@@ -79,3 +82,76 @@
 .burgermenu-cloze{
     margin: 1rem 0 0 90%;
 }
+
+@media (max-width: 1285px) {
+    .header__block-contacts {
+        display: none;
+    }
+}
+
+@media (max-width: 1140px) {}
+
+@media (max-width: 1024px) {
+    .header__nav-lists {
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 920px) {
+    .header-btn {
+        display: none;
+    }
+}
+
+@media (max-width: 821px) {
+    
+    .header-nav {
+        display: none;
+    }
+
+    .header__block-contacts {
+        display: flex;
+    }
+
+    .header-burgermenu {
+        display: block;
+    }
+}
+
+@media (max-width: 769px) {}
+
+@media (max-width: 541px) {
+    .header__block-contacts {
+        .block__contacts-time {
+            display: none;
+        }
+
+        .block__contacts-clock {
+            display: none;
+        }
+    }
+
+    .header__logo-discription {
+        display: none;
+    }
+}
+
+@media (max-width: 431px) {
+    .header-logo {
+        width: 10rem;
+    }
+    .block__contacts-tel {
+        font-size: 1rem;
+    }
+    
+}
+
+@media (max-width: 413px) {}
+
+@media (max-width: 394px) {
+    .header-logo {
+        width: 8rem;
+    }
+}
+
+@media (max-width: 377px) {}

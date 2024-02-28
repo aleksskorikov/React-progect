@@ -1,4 +1,5 @@
-
+@import "./_changeable.scss";
+@import "./_templates.scss";
 .footer {
     background-color: $header-bg;
 }
@@ -64,3 +65,62 @@
         top: 1px;
         }
 }
+
+
+@media (max-width: 1024px) {
+
+    .footer__nav-linck {
+        font-size: 1rem;
+    }
+
+    .footer__nav-lists {
+        gap: 3rem;
+    }
+
+}
+
+@media (max-width: 920px) {}
+
+@media (max-width: 821px) {
+    .footer__nav-lists {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width: 769px) {}
+
+@media (max-width: 541px) {
+
+    .footer-block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__block-contacts {
+        text-align: center;
+        margin: 1rem 0;
+        order: 1;
+    }
+
+    .footer-nav {
+        order: 2;
+    }
+
+    .footer__nav-linck {
+        font-size: 1.2rem;
+    }
+
+    .footer__nav-lists {
+        margin-bottom: 1.5rem;
+    }
+
+}
+
+@media (max-width: 431px) {}
+
+@media (max-width: 413px) {}
+
+@media (max-width: 394px) {}
+
+@media (max-width: 377px) {}

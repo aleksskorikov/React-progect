@@ -2,7 +2,8 @@ import React from 'react';
 import ProductFoto from '../../../imeges/img/product discont.svg';
 import '../../../styles/scss/home/_products.scss';
 import BtnRequestCall from '../../Events/BtnRequestCall';
-import Elips from '../../../imeges/img/Ellipse.svg'
+import Elips from '../../../imeges/img/Ellipse.svg';
+
 
 const DiscountedProduct = () => {
     return (
@@ -22,7 +23,7 @@ const DiscountedProduct = () => {
                     <p className="discaunt-sum">30%</p>
                 </div>
                 <div className="block-btn block__discaunt-btn">
-                    <BtnRequestCall children={"Замовити"} primary/>
+                    <BtnRequestCall children={"Замовити"} />
                 </div>
                 
             </div>

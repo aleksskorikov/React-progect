@@ -3,6 +3,7 @@ import Header from '../Components/header/';
 import Footer from '../Components/footer/';
 import SectionOne from '../Components/Home main/sectionOne';
 import PopularModels from '../Components/Home main/PopularModels';
+import MadeFurniture from '../Components/Home main/MadeFurniture';
 
 const Navbar = () => {
     return (
@@ -16,6 +17,9 @@ const Navbar = () => {
             </div>
             <div className="section-popularModels">
                 <PopularModels />   
+            </div>
+            <div className="section-madeFurniture">
+            <MadeFurniture />
             </div>
         </div>
         <div className="footer">
