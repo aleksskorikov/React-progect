@@ -8,7 +8,10 @@
     justify-content: space-between;
     margin: 1.9rem 0;
 }
-.footer-nav {
+.footer__nav {
+    text-align: center;
+}
+.footer__nav-block{
     text-align: center;
 }
 .footer__nav-lists{
@@ -103,7 +106,7 @@
         order: 1;
     }
 
-    .footer-nav {
+    .footer__nav {
         order: 2;
     }
 

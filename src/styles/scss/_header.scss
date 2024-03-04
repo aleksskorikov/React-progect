@@ -1,6 +1,7 @@
 
 @import "./_changeable.scss";
 @import "./_templates.scss";
+
 .header {
     background-color: $header-bg;
 }
@@ -22,9 +23,16 @@
 }
 .header__nav-lists {
     display: flex;
-    gap: 4.6rem;
+    gap: 4rem;
 }
-.header__nav-linck, .burgermenu-linck {
+.header__nav-linck {
+    @extend %text-block-linc;
+
+    &:hover {
+        color: $color-1-hover;
+    }
+}
+.burgermenu__linck {
     @extend %text-block-linc;
     &:hover{
         color: $color-1-hover;
@@ -105,7 +113,7 @@
 
 @media (max-width: 821px) {
     
-    .header-nav {
+    .header__nav {
         display: none;
     }
 

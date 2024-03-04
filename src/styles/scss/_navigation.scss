@@ -1,0 +1,20 @@
+@import "./_changeable.scss";
+@import "./_templates.scss";
+
+.nav {
+    text-align: center;
+}
+
+.nav-lists {
+    display: flex;
+    gap: 4rem;
+    margin-bottom:0;
+}
+
+.nav-linck {
+    @extend %text-block-linc;
+
+    &:hover {
+        color: $color-1-hover;
+    }
+}
