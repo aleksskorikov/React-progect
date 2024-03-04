@@ -119,3 +119,36 @@ iframe{
         top: 2px;
     }
 }
+
+
+@media (max-width: 921px) {
+    .contact__block-contacts {
+        gap: 5rem;
+        margin: 5rem auto;
+    }
+    .input__block-form {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        margin: 1rem;
+    }
+    .contact-form {
+        height: 100%;
+    }
+}
+@media (max-width: 541px) {
+    .contact__block-contacts {
+        align-items: start;
+        gap: 1.5rem;
+    }
+    .contacts__tel-img,
+    .contacts__adress-img,
+    .contacts__mail-img {
+        width: 4rem;
+    }
+    .contacts__tel-tel,
+    .contacts__adress-text,
+    .contacts__mail-text {
+        font-size: 0.88rem;
+    }
+}
