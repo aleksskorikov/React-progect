@@ -2,6 +2,7 @@ import React from 'react';
 import SectionOne from '../Components/Home main/sectionOne';
 import PopularModels from '../Components/Home main/PopularModels';
 import MadeFurniture from '../Components/Home main/MadeFurniture';
+import SliderSlic from '../Components/Events/SliderSlic';
 
 const Navbar = () => {
     return (
@@ -14,7 +15,10 @@ const Navbar = () => {
                 <PopularModels />   
             </div>
             <div className="section-madeFurniture">
-            <MadeFurniture />
+                <MadeFurniture />
+                </div>
+            <div className="slider">
+                <SliderSlic />
             </div>
         </div>
         </>

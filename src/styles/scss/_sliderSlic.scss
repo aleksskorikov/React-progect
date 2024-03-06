@@ -1,0 +1,84 @@
+@import "./_changeable.scss";
+
+.slider{
+    width: 100%;
+    margin: 2rem auto 15rem; 
+}
+.slick-track{
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.slide__block-foto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 22rem;
+}
+.block__foto-name{
+    color: $color-1;
+        font-family: $font-famali-2;
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 2.25rem;
+}
+.block__foto-text{
+    max-width: 22rem;
+    color: $color-1;
+    font-family: $font-famali-1;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.19rem;
+    margin-top: 2.5rem;
+}
+
+.slick-prev{
+    top: 30rem;
+    left: 49rem;
+}
+.slick-next{
+    top: 30rem;
+    right: 49rem;
+}
+.slick-prev:before {
+    content:url(../../imeges/img/slider/arrow-rite.svg) ;
+    
+}
+.slick-next:before {
+    content: url(../../imeges/img/slider/arrow-left.svg);
+}
+
+@media (max-width: 1024px) {
+    .slick-track {
+        gap: 5rem;
+    }
+    .slick-prev {
+        left: 41rem;
+    }
+    .slick-next {
+        right: 41rem;
+    }
+}
+@media (max-width: 920px) {
+    .slick-track {
+        gap: 3rem;
+    }
+
+    .slick-prev {
+        left: 37rem;
+    }
+
+    .slick-next {
+        right: 37rem;
+    }
+}
+@media (max-width: 769px) {
+    .slick-prev {
+            left: 60%;
+        }
+    
+        .slick-next {
+            right: 60%;
+        }
+}
