@@ -1,0 +1,21 @@
+<svg width="127.000000" height="127.000000" viewBox="0 0 127 127" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_87_1858_dd" x="0.000000" y="0.000000" width="127.000000" height="127.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="4"/>
+			<feGaussianBlur stdDeviation="1.33333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.051 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+	</defs>
+	<g filter="url(#filter_87_1858_dd)">
+		<path id="Ellipse 3" d="M4.13962 62.7334C1.5473 94.5405 35.5242 117.236 66.8265 118.878C103.59 120.806 125.978 99.8418 122.679 62.7334C115.138 32.6133 95.8133 8.03516 63.0559 1.04712C20.1649 -6.42261 9.08859 27.312 4.13962 62.7334Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+	<path id="Ellipse 3" d="M4.13962 62.7334C1.5473 94.5405 35.5242 117.236 66.8265 118.878C103.59 120.806 125.978 99.8418 122.679 62.7334C115.138 32.6133 95.8133 8.03516 63.0559 1.04712C20.1649 -6.42261 9.08859 27.312 4.13962 62.7334ZM5.134 62.8433Q4.54871 70.0796 6.29822 76.6987Q9.90094 90.3291 23.4046 101.343Q31.3218 107.8 40.3369 111.754Q52.5932 117.13 66.8789 117.879Q91.1647 119.152 105.55 107.838Q107.394 106.388 109.075 104.732Q111.7 102.144 113.794 99.1797Q123.655 85.2153 121.69 62.9004Q115.793 39.4148 101.586 23.8909Q95.4204 17.1541 88.0153 12.3137Q76.8497 5.01538 62.8658 2.02905Q43.8934 -1.27026 31.2684 6.18237Q24.9195 9.93042 20.1758 16.3975Q9.61557 30.7944 5.134 62.8433Z" fill="#303030" fill-opacity="1.000000" fill-rule="evenodd"/>
+</svg>

@@ -1,5 +1,6 @@
 import React from 'react';
 import MadeFurniture from '../Components/Home main/MadeFurniture';
+import ButtonToTop from '../Components/Events/ButtonToTop';
 
 
 const Navbar = () => {
@@ -7,6 +8,9 @@ const Navbar = () => {
         <>
             <div className="section-madeFurniture">
                 <MadeFurniture />
+            </div>
+            <div className="button__to-top">
+                <ButtonToTop />    
             </div>
         </>
     );

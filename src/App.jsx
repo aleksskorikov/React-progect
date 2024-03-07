@@ -8,12 +8,14 @@ import Catalog from './pages/catalog';
 import Shipping from './pages/Shipping';
 import NotFaund from './pages/NotFaund';
 import Layout from './Components/Layout';
+import ErrorBoundary from './Components/ErrorBoundary';
 
 function App() {
 
   return (
     <>
-      <Routes>
+      <ErrorBoundary>
+        <Routes>
           <Route path='/' element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="/catalog" element={<Catalog />} />
@@ -22,7 +24,9 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path='*' element = {<NotFaund />}/>
           </Route>
-      </Routes>
+        </Routes>
+      </ErrorBoundary>
+
     </>
   )
 }

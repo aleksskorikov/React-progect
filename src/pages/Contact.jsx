@@ -4,6 +4,7 @@ import Adress from '../imeges/logo/address.svg';
 import Mail from '../imeges/logo/mail.svg';
 import '../styles/scss/contacts/_contacts.scss';
 import Form from '../Components/Events/form';
+import ButtonToTop from '../Components/Events/ButtonToTop';
 
 
 const Navbar = () => {
@@ -30,6 +31,9 @@ const Navbar = () => {
                 </div>
                 <div className="contact-form">
                     <Form style={'form'}/>
+                </div>
+                <div className="button__to-top">
+                <ButtonToTop />    
                 </div>
                 
             </div>
